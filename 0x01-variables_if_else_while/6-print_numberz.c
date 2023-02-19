@@ -1,6 +1,7 @@
 #include <stdio.h>
 /**
- * main - This program prints all single digit numbers of base 10 starting from 0
+ * main - This program prints all single digit numbers of base
+ * 10 starting from 0
  *
  * Return: Always 0 (success)
  */
@@ -11,7 +12,8 @@ int main(void)
 
 	c = 'z';
 	while
-		(c >= 'a') {
+		(c >= 'a')
+		{
 			putchar(c);
 			c--;
 		}
