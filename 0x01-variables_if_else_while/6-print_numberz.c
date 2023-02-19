@@ -8,14 +8,13 @@
 
 int main(void)
 {
-	char c;
+	int c = '0';
 
-	c = 'z';
 	while
-		(c >= 'a')
+		(c < 10)
 		{
-			putchar(c);
-			c--;
+			putchar(48 + c);
+			c++;
 		}
 	putchar('\n');
 	return (0);
