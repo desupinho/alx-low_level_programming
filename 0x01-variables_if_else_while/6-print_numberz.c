@@ -5,7 +5,6 @@
  *
  * Return: Always 0 (success)
  */
-
 int main(void)
 {
 	int c = '0';
@@ -13,8 +12,8 @@ int main(void)
 	while (c < 10)
 		{
 			putchar(48 + c);
-			c++;
 		}
+			c++;
 	putchar('\n');
 	return (0);
 }
