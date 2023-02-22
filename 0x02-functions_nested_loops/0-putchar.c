@@ -1,11 +1,16 @@
 #include "main.h"
 /**
- * main - print _putchar
+ * imain - print _putchar
  * Its written by sanusi
- * return: 0
+ *
+ * Description:
+ * This function prints the characters for "_putchar" using the
+ * _putchar function. It returns 0 on successful execution.
+ * Return: Always 0.
  */
 
 int main(void)
+
 {
 	_putchar('_');
 	_putchar('p');
